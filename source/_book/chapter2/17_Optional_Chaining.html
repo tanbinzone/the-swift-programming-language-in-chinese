@@ -1,0 +1,1294 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>可选链 | 2.0 新的开始</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../chapter2/18_Error_Handling.html" />
+    
+    
+    <link rel="prev" href="../chapter2/16_Automatic_Reference_Counting.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="2.17" data-basepath=".." data-revision="1467786879222">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="chapter1/chapter1.html">
+            
+                
+                    <a href="../chapter1/chapter1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         欢迎使用 Swift
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="1.1" data-path="chapter1/01_swift.html">
+            
+                
+                    <a href="../chapter1/01_swift.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                         关于 Swift
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.2" data-path="chapter1/02_a_swift_tour.html">
+            
+                
+                    <a href="../chapter1/02_a_swift_tour.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                         Swift 初见
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.3" data-path="chapter1/03_revision_history.html">
+            
+                
+                    <a href="../chapter1/03_revision_history.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                         Swift 版本历史记录
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1.4" data-path="v1.0.html">
+            
+                
+                    <a href="../v1.0.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.4.</b>
+                        
+                         Swift 1.0 发布内容
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="chapter2/chapter2.html">
+            
+                
+                    <a href="../chapter2/chapter2.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         Swift 教程
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="2.1" data-path="chapter2/01_The_Basics.html">
+            
+                
+                    <a href="../chapter2/01_The_Basics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                         基础部分
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.2" data-path="chapter2/02_Basic_Operators.html">
+            
+                
+                    <a href="../chapter2/02_Basic_Operators.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                         基本运算符
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.3" data-path="chapter2/03_Strings_and_Characters.html">
+            
+                
+                    <a href="../chapter2/03_Strings_and_Characters.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                         字符串和字符
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.4" data-path="chapter2/04_Collection_Types.html">
+            
+                
+                    <a href="../chapter2/04_Collection_Types.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                         集合类型
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.5" data-path="chapter2/05_Control_Flow.html">
+            
+                
+                    <a href="../chapter2/05_Control_Flow.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                         控制流
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.6" data-path="chapter2/06_Functions.html">
+            
+                
+                    <a href="../chapter2/06_Functions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                         函数
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.7" data-path="chapter2/07_Closures.html">
+            
+                
+                    <a href="../chapter2/07_Closures.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                         闭包
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.8" data-path="chapter2/08_Enumerations.html">
+            
+                
+                    <a href="../chapter2/08_Enumerations.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                         枚举
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.9" data-path="chapter2/09_Classes_and_Structures.html">
+            
+                
+                    <a href="../chapter2/09_Classes_and_Structures.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.9.</b>
+                        
+                         类和结构体
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.10" data-path="chapter2/10_Properties.html">
+            
+                
+                    <a href="../chapter2/10_Properties.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.10.</b>
+                        
+                         属性
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.11" data-path="chapter2/11_Methods.html">
+            
+                
+                    <a href="../chapter2/11_Methods.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.11.</b>
+                        
+                         方法
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.12" data-path="chapter2/12_Subscripts.html">
+            
+                
+                    <a href="../chapter2/12_Subscripts.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.12.</b>
+                        
+                         下标
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.13" data-path="chapter2/13_Inheritance.html">
+            
+                
+                    <a href="../chapter2/13_Inheritance.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.13.</b>
+                        
+                         继承
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.14" data-path="chapter2/14_Initialization.html">
+            
+                
+                    <a href="../chapter2/14_Initialization.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.14.</b>
+                        
+                         构造过程
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.15" data-path="chapter2/15_Deinitialization.html">
+            
+                
+                    <a href="../chapter2/15_Deinitialization.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.15.</b>
+                        
+                         析构过程
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.16" data-path="chapter2/16_Automatic_Reference_Counting.html">
+            
+                
+                    <a href="../chapter2/16_Automatic_Reference_Counting.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.16.</b>
+                        
+                         自动引用计数
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="2.17" data-path="chapter2/17_Optional_Chaining.html">
+            
+                
+                    <a href="../chapter2/17_Optional_Chaining.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.17.</b>
+                        
+                         可选链
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.18" data-path="chapter2/18_Error_Handling.html">
+            
+                
+                    <a href="../chapter2/18_Error_Handling.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.18.</b>
+                        
+                         错误处理
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.19" data-path="chapter2/19_Type_Casting.html">
+            
+                
+                    <a href="../chapter2/19_Type_Casting.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.19.</b>
+                        
+                         类型转换
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.20" data-path="chapter2/20_Nested_Types.html">
+            
+                
+                    <a href="../chapter2/20_Nested_Types.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.20.</b>
+                        
+                         嵌套类型
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.21" data-path="chapter2/21_Extensions.html">
+            
+                
+                    <a href="../chapter2/21_Extensions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.21.</b>
+                        
+                         扩展
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.22" data-path="chapter2/22_Protocols.html">
+            
+                
+                    <a href="../chapter2/22_Protocols.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.22.</b>
+                        
+                         协议
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.23" data-path="chapter2/23_Generics.html">
+            
+                
+                    <a href="../chapter2/23_Generics.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.23.</b>
+                        
+                         泛型
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.24" data-path="chapter2/24_Access_Control.html">
+            
+                
+                    <a href="../chapter2/24_Access_Control.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.24.</b>
+                        
+                         访问控制
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2.25" data-path="chapter2/25_Advanced_Operators.html">
+            
+                
+                    <a href="../chapter2/25_Advanced_Operators.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.25.</b>
+                        
+                         高级运算符
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> 语言参考</span>
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.1" data-path="chapter3/01_About_the_Language_Reference.html">
+            
+                
+                    <a href="../chapter3/01_About_the_Language_Reference.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                         关于语言参考
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2" data-path="chapter3/02_Lexical_Structure.html">
+            
+                
+                    <a href="../chapter3/02_Lexical_Structure.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                         词法结构
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3" data-path="chapter3/03_Types.html">
+            
+                
+                    <a href="../chapter3/03_Types.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                         类型
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.4" data-path="chapter3/04_Expressions.html">
+            
+                
+                    <a href="../chapter3/04_Expressions.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                         表达式
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.5" data-path="chapter3/10_Statements.html">
+            
+                
+                    <a href="../chapter3/10_Statements.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                         语句
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.6" data-path="chapter3/05_Declarations.html">
+            
+                
+                    <a href="../chapter3/05_Declarations.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                         声明
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7" data-path="chapter3/06_Attributes.html">
+            
+                
+                    <a href="../chapter3/06_Attributes.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                         特性
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.8" data-path="chapter3/07_Patterns.html">
+            
+                
+                    <a href="../chapter3/07_Patterns.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.</b>
+                        
+                         模式
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.9" data-path="chapter3/08_Generic_Parameters_and_Arguments.html">
+            
+                
+                    <a href="../chapter3/08_Generic_Parameters_and_Arguments.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.9.</b>
+                        
+                         泛型参数
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.10" data-path="chapter3/09_Summary_of_the_Grammar.html">
+            
+                
+                    <a href="../chapter3/09_Summary_of_the_Grammar.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.10.</b>
+                        
+                         语法总结
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" >
+            
+            <span><b>4.</b> 苹果官方Blog官方翻译</span>
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1" data-path="chapter4/01_Access_Control.html">
+            
+                
+                    <a href="../chapter4/01_Access_Control.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                         Access Control 权限控制的黑与白
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.2" data-path="chapter4/02_Type_Custom.html">
+            
+                
+                    <a href="../chapter4/02_Type_Custom.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                         造个类型不是梦-白话Swift类型创建
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.3" data-path="chapter4/03_Ballons.html">
+            
+                
+                    <a href="../chapter4/03_Ballons.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                         WWDC里面的那个“大炮打气球”
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.4" data-path="chapter4/04_Interacting_with_C_Pointers.html">
+            
+                
+                    <a href="../chapter4/04_Interacting_with_C_Pointers.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                         Swift与C语言指针友好合作
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.5" data-path="chapter4/05_Value_and_Reference_Types.html">
+            
+                
+                    <a href="../chapter4/05_Value_and_Reference_Types.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                         引用类型和值类型的恩怨
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.6" data-path="chapter4/06_Access_Control_and_Protected.html">
+            
+                
+                    <a href="../chapter4/06_Access_Control_and_Protected.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                         访问控制和Protected
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.7" data-path="chapter4/07_Optional_Case_Study.html">
+            
+                
+                    <a href="../chapter4/07_Optional_Case_Study.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                         可选类型完美解决占位问题
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >2.0 新的开始</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_58">
+                    
+                        <h1 id="optional-chaining">可选链式调用（Optional Chaining）</h1>
+<hr>
+<blockquote>
+<p>1.0
+翻译：<a href="https://github.com/Jasonbroker" target="_blank">Jasonbroker</a>
+校对：<a href="https://github.com/numbbbbb" target="_blank">numbbbbb</a>, <a href="https://github.com/stanzhai" target="_blank">stanzhai</a></p>
+<p>2.0
+翻译+校对：<a href="https://github.com/lyojo" target="_blank">lyojo</a></p>
+<p>2.1
+校对：<a href="http://codebuild.me" target="_blank">shanks</a>，2015-10-31  </p>
+<p>2.2
+翻译+校对：<a href="https://github.com/SketchK" target="_blank">SketchK</a> 2016-05-15</p>
+</blockquote>
+<p>本页包含内容：</p>
+<ul>
+<li><a href="#optional_chaining_as_an_alternative_to_forced_unwrapping">使用可选链式调用代替强制展开</a></li>
+<li><a href="#defining_model_classes_for_optional_chaining">为可选链式调用定义模型类</a></li>
+<li><a href="#accessing_properties_through_optional_chaining">通过可选链式调用访问属性</a></li>
+<li><a href="#calling_methods_through_optional_chaining">通过可选链式调用调用方法</a></li>
+<li><a href="#accessing_subscripts_through_optional_chaining">通过可选链式调用访问下标</a></li>
+<li><a href="#linking_multiple_levels_of_chaining">连接多层可选链式调用</a></li>
+<li><a href="#chaining_on_methods_with_optional_return_values">在方法的可选返回值上进行可选链式调用</a></li>
+</ul>
+<p>可选链式调用（Optional Chaining）是一种可以在当前值可能为<code>nil</code>的可选值上请求和调用属性、方法及下标的方法。如果可选值有值，那么调用就会成功；如果可选值是<code>nil</code>，那么调用将返回<code>nil</code>。多个调用可以连接在一起形成一个调用链，如果其中任何一个节点为<code>nil</code>，整个调用链都会失败，即返回<code>nil</code>。</p>
+<blockquote>
+<p>注意<br>Swift 的可选链式调用和 Objective-C 中向<code>nil</code>发送消息有些相像，但是 Swift 的可选链式调用可以应用于任意类型，并且能检查调用是否成功。</p>
+</blockquote>
+<p><a name="optional_chaining_as_an_alternative_to_forced_unwrapping"></a></p>
+<h2 id="">使用可选链式调用代替强制展开</h2>
+<p>通过在想调用的属性、方法、或下标的可选值（optional value）后面放一个问号（<code>?</code>），可以定义一个可选链。这一点很像在可选值后面放一个叹号（<code>!</code>）来强制展开它的值。它们的主要区别在于当可选值为空时可选链式调用只会调用失败，然而强制展开将会触发运行时错误。</p>
+<p>为了反映可选链式调用可以在空值（<code>nil</code>）上调用的事实，不论这个调用的属性、方法及下标返回的值是不是可选值，它的返回结果都是一个可选值。你可以利用这个返回值来判断你的可选链式调用是否调用成功，如果调用有返回值则说明调用成功，返回<code>nil</code>则说明调用失败。</p>
+<p>特别地，可选链式调用的返回结果与原本的返回结果具有相同的类型，但是被包装成了一个可选值。例如，使用可选链式调用访问属性，当可选链式调用成功时，如果属性原本的返回结果是<code>Int</code>类型，则会变为<code>Int?</code>类型。</p>
+<p>下面几段代码将解释可选链式调用和强制展开的不同。</p>
+<p>首先定义两个类<code>Person</code>和<code>Residence</code>：</p>
+<pre><code class="lang-swift"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+    <span class="hljs-keyword">var</span> residence: <span class="hljs-type">Residence</span>?
+}
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Residence</span> </span>{
+    <span class="hljs-keyword">var</span> numberOfRooms = <span class="hljs-number">1</span>
+}
+</code></pre>
+<p><code>Residence</code>有一个<code>Int</code>类型的属性<code>numberOfRooms</code>，其默认值为<code>1</code>。<code>Person</code>具有一个可选的<code>residence</code>属性，其类型为<code>Residence?</code>。  </p>
+<p>假如你创建了一个新的<code>Person</code>实例,它的<code>residence</code>属性由于是是可选型而将初始化为<code>nil</code>,在下面的代码中,<code>john</code>有一个值为<code>nil</code>的<code>residence</code>属性：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> john = <span class="hljs-type">Person</span>()
+</code></pre>
+<p>如果使用叹号（<code>!</code>）强制展开获得这个<code>john</code>的<code>residence</code>属性中的<code>numberOfRooms</code>值，会触发运行时错误，因为这时<code>residence</code>没有可以展开的值：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> roomCount = john.residence!.numberOfRooms
+<span class="hljs-comment">// 这会引发运行时错误</span>
+</code></pre>
+<p><code>john.residence</code>为非<code>nil</code>值的时候，上面的调用会成功，并且把<code>roomCount</code>设置为<code>Int</code>类型的房间数量。正如上面提到的，当<code>residence</code>为<code>nil</code>的时候上面这段代码会触发运行时错误。</p>
+<p>可选链式调用提供了另一种访问<code>numberOfRooms</code>的方式，使用问号（<code>?</code>）来替代原来的叹号（<code>!</code>）：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> roomCount = john.residence?.numberOfRooms {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"John's residence has <span class="hljs-subst">\(roomCount)</span> room(s)."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"Unable to retrieve the number of rooms."</span>)
+}
+<span class="hljs-comment">// 打印 “Unable to retrieve the number of rooms.”</span>
+</code></pre>
+<p>在<code>residence</code>后面添加问号之后，Swift 就会在<code>residence</code>不为<code>nil</code>的情况下访问<code>numberOfRooms</code>。</p>
+<p>因为访问<code>numberOfRooms</code>有可能失败，可选链式调用会返回<code>Int?</code>类型，或称为“可选的 <code>Int</code>”。如上例所示，当<code>residence</code>为<code>nil</code>的时候，可选的<code>Int</code>将会为<code>nil</code>，表明无法访问<code>numberOfRooms</code>。访问成功时，可选的<code>Int</code>值会通过可选绑定展开，并赋值给非可选类型的<code>roomCount</code>常量。</p>
+<p>要注意的是，即使<code>numberOfRooms</code>是非可选的<code>Int</code>时，这一点也成立。只要使用可选链式调用就意味着<code>numberOfRooms</code>会返回一个<code>Int?</code>而不是<code>Int</code>。</p>
+<p>可以将一个<code>Residence</code>的实例赋给<code>john.residence</code>，这样它就不再是<code>nil</code>了：</p>
+<pre><code class="lang-swift">john.residence = <span class="hljs-type">Residence</span>()
+</code></pre>
+<p><code>john.residence</code>现在包含一个实际的<code>Residence</code>实例，而不再是<code>nil</code>。如果你试图使用先前的可选链式调用访问<code>numberOfRooms</code>，它现在将返回值为<code>1</code>的<code>Int?</code>类型的值：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> roomCount = john.residence?.numberOfRooms {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"John's residence has <span class="hljs-subst">\(roomCount)</span> room(s)."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"Unable to retrieve the number of rooms."</span>)
+}
+<span class="hljs-comment">// 打印 “John's residence has 1 room(s).”</span>
+</code></pre>
+<p><a name="defining_model_classes_for_optional_chaining"></a></p>
+<h2 id="">为可选链式调用定义模型类</h2>
+<p>通过使用可选链式调用可以调用多层属性、方法和下标。这样可以在复杂的模型中向下访问各种子属性，并且判断能否访问子属性的属性、方法或下标。</p>
+<p>下面这段代码定义了四个模型类，这些例子包括多层可选链式调用。为了方便说明，在<code>Person</code>和<code>Residence</code>的基础上增加了<code>Room</code>类和<code>Address</code>类，以及相关的属性、方法以及下标。</p>
+<p><code>Person</code>类的定义基本保持不变：</p>
+<pre><code class="lang-swift"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Person</span> </span>{
+    <span class="hljs-keyword">var</span> residence: <span class="hljs-type">Residence</span>?
+}
+</code></pre>
+<p><code>Residence</code>类比之前复杂些，增加了一个名为<code>rooms</code>的变量属性，该属性被初始化为<code>[Room]</code>类型的空数组：</p>
+<pre><code class="lang-swift"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Residence</span> </span>{
+    <span class="hljs-keyword">var</span> rooms = [<span class="hljs-type">Room</span>]()
+    <span class="hljs-keyword">var</span> numberOfRooms: <span class="hljs-type">Int</span> {
+        <span class="hljs-keyword">return</span> rooms.<span class="hljs-built_in">count</span>
+    }
+    <span class="hljs-keyword">subscript</span>(i: <span class="hljs-type">Int</span>) -&gt; <span class="hljs-type">Room</span> {
+        <span class="hljs-keyword">get</span> {
+            <span class="hljs-keyword">return</span> rooms[i]
+        }
+        <span class="hljs-keyword">set</span> {
+            rooms[i] = newValue
+        }
+    }
+    <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">printNumberOfRooms</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-built_in">print</span>(<span class="hljs-string">"The number of rooms is <span class="hljs-subst">\(numberOfRooms)</span>"</span>)
+    }
+    <span class="hljs-keyword">var</span> address: <span class="hljs-type">Address</span>?
+}
+</code></pre>
+<p>现在<code>Residence</code>有了一个存储<code>Room</code>实例的数组，<code>numberOfRooms</code>属性被实现为计算型属性，而不是存储型属性。<code>numberOfRooms</code>属性简单地返回<code>rooms</code>数组的<code>count</code>属性的值。</p>
+<p><code>Residence</code>还提供了访问<code>rooms</code>数组的快捷方式，即提供可读写的下标来访问<code>rooms</code>数组中指定位置的元素。</p>
+<p>此外，<code>Residence</code>还提供了<code>printNumberOfRooms()</code>方法，这个方法的作用是打印<code>numberOfRooms</code>的值。</p>
+<p>最后，<code>Residence</code>还定义了一个可选属性<code>address</code>，其类型为<code>Address?</code>。<code>Address</code>类的定义在下面会说明。</p>
+<p><code>Room</code>类是一个简单类，其实例被存储在<code>rooms</code>数组中。该类只包含一个属性<code>name</code>，以及一个用于将该属性设置为适当的房间名的初始化函数：</p>
+<pre><code class="lang-swift"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Room</span> </span>{
+    <span class="hljs-keyword">let</span> name: <span class="hljs-type">String</span>
+    <span class="hljs-keyword">init</span>(name: <span class="hljs-type">String</span>) { <span class="hljs-keyword">self</span>.name = name }
+}
+</code></pre>
+<p>最后一个类是<code>Address</code>，这个类有三个<code>String?</code>类型的可选属性。<code>buildingName</code>以及<code>buildingNumber</code>属性分别表示某个大厦的名称和号码，第三个属性<code>street</code>表示大厦所在街道的名称：</p>
+<pre><code class="lang-swift"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Address</span> </span>{
+    <span class="hljs-keyword">var</span> buildingName: <span class="hljs-type">String</span>?
+    <span class="hljs-keyword">var</span> buildingNumber: <span class="hljs-type">String</span>?
+    <span class="hljs-keyword">var</span> street: <span class="hljs-type">String</span>?
+    <span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">buildingIdentifier</span><span class="hljs-params">()</span> -&gt; <span class="hljs-title">String</span>? </span>{
+        <span class="hljs-keyword">if</span> buildingName != <span class="hljs-built_in">nil</span> {
+            <span class="hljs-keyword">return</span> buildingName
+        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> buildingNumber != <span class="hljs-built_in">nil</span> &amp;&amp; street != <span class="hljs-built_in">nil</span> {
+            <span class="hljs-keyword">return</span> <span class="hljs-string">"<span class="hljs-subst">\(buildingNumber)</span> <span class="hljs-subst">\(street)</span>"</span>
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-keyword">return</span> <span class="hljs-built_in">nil</span>
+        }
+    }
+}
+</code></pre>
+<p><code>Address</code>类提供了<code>buildingIdentifier()</code>方法，返回值为<code>String?</code>。 如果<code>buildingName</code>有值则返回<code>buildingName</code>。或者，如果<code>buildingNumber</code>和<code>street</code>均有值则返回<code>buildingNumber</code>。否则，返回<code>nil</code>。</p>
+<p><a name="accessing_properties_through_optional_chaining"></a></p>
+<h2 id="">通过可选链式调用访问属性</h2>
+<p>正如<a href="#optional_chaining_as_an_alternative_to_forced_unwrapping">使用可选链式调用代替强制展开</a>中所述，可以通过可选链式调用在一个可选值上访问它的属性，并判断访问是否成功。</p>
+<p>下面的代码创建了一个<code>Person</code>实例，然后像之前一样，尝试访问<code>numberOfRooms</code>属性：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> john = <span class="hljs-type">Person</span>()
+<span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> roomCount = john.residence?.numberOfRooms {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"John's residence has <span class="hljs-subst">\(roomCount)</span> room(s)."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"Unable to retrieve the number of rooms."</span>)
+}
+<span class="hljs-comment">// 打印 “Unable to retrieve the number of rooms.”</span>
+</code></pre>
+<p>因为<code>john.residence</code>为<code>nil</code>，所以这个可选链式调用依旧会像先前一样失败。</p>
+<p>还可以通过可选链式调用来设置属性值：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> someAddress = <span class="hljs-type">Address</span>()
+someAddress.buildingNumber = <span class="hljs-string">"29"</span>
+someAddress.street = <span class="hljs-string">"Acacia Road"</span>
+john.residence?.address = someAddress
+</code></pre>
+<p>在这个例子中，通过<code>john.residence</code>来设定<code>address</code>属性也会失败，因为<code>john.residence</code>当前为<code>nil</code>。</p>
+<p>上面代码中的赋值过程是可选链式调用的一部分，这意味着可选链式调用失败时，等号右侧的代码不会被执行。对于上面的代码来说，很难验证这一点，因为像这样赋值一个常量没有任何副作用。下面的代码完成了同样的事情，但是它使用一个函数来创建<code>Address</code>实例，然后将该实例返回用于赋值。该函数会在返回前打印“Function was called”，这使你能验证等号右侧的代码是否被执行。</p>
+<pre><code class="lang-swift"><span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">createAddress</span><span class="hljs-params">()</span> -&gt; <span class="hljs-title">Address</span> </span>{
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"Function was called."</span>)
+
+    <span class="hljs-keyword">let</span> someAddress = <span class="hljs-type">Address</span>()
+    someAddress.buildingNumber = <span class="hljs-string">"29"</span>
+    someAddress.street = <span class="hljs-string">"Acacia Road"</span>
+
+    <span class="hljs-keyword">return</span> someAddress
+}
+john.residence?.address = createAddress()
+</code></pre>
+<p>没有任何打印消息，可以看出<code>createAddress()</code>函数并未被执行。</p>
+<p><a name="calling_methods_through_optional_chaining"></a></p>
+<h2 id="">通过可选链式调用调用方法</h2>
+<p>可以通过可选链式调用来调用方法，并判断是否调用成功，即使这个方法没有返回值。</p>
+<p><code>Residence</code>类中的<code>printNumberOfRooms()</code>方法打印当前的<code>numberOfRooms</code>值，如下所示：</p>
+<pre><code class="lang-swift"><span class="hljs-func"><span class="hljs-keyword">func</span> <span class="hljs-title">printNumberOfRooms</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"The number of rooms is <span class="hljs-subst">\(numberOfRooms)</span>"</span>)
+}
+</code></pre>
+<p>这个方法没有返回值。然而，没有返回值的方法具有隐式的返回类型<code>Void</code>，如<a href="./06_Functions.html#functions_without_return_values">无返回值函数</a>中所述。这意味着没有返回值的方法也会返回<code>()</code>，或者说空的元组。</p>
+<p>如果在可选值上通过可选链式调用来调用这个方法，该方法的返回类型会是<code>Void?</code>，而不是<code>Void</code>，因为通过可选链式调用得到的返回值都是可选的。这样我们就可以使用<code>if</code>语句来判断能否成功调用<code>printNumberOfRooms()</code>方法，即使方法本身没有定义返回值。通过判断返回值是否为<code>nil</code>可以判断调用是否成功：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">if</span> john.residence?.printNumberOfRooms() != <span class="hljs-built_in">nil</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"It was possible to print the number of rooms."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"It was not possible to print the number of rooms."</span>)
+}
+<span class="hljs-comment">// 打印 “It was not possible to print the number of rooms.”</span>
+</code></pre>
+<p>同样的，可以据此判断通过可选链式调用为属性赋值是否成功。在上面的<a href="#accessing_properties_through_optional_chaining">通过可选链式调用访问属性</a>的例子中，我们尝试给<code>john.residence</code>中的<code>address</code>属性赋值，即使<code>residence</code>为<code>nil</code>。通过可选链式调用给属性赋值会返回<code>Void?</code>，通过判断返回值是否为<code>nil</code>就可以知道赋值是否成功：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">if</span> (john.residence?.address = someAddress) != <span class="hljs-built_in">nil</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"It was possible to set the address."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"It was not possible to set the address."</span>)
+}
+<span class="hljs-comment">// 打印 “It was not possible to set the address.”</span>
+</code></pre>
+<p><a name="accessing_subscripts_through_optional_chaining"></a></p>
+<h2 id="">通过可选链式调用访问下标</h2>
+<p>通过可选链式调用，我们可以在一个可选值上访问下标，并且判断下标调用是否成功。</p>
+<blockquote>
+<p>注意<br>通过可选链式调用访问可选值的下标时，应该将问号放在下标方括号的前面而不是后面。可选链式调用的问号一般直接跟在可选表达式的后面。</p>
+</blockquote>
+<p>下面这个例子用下标访问<code>john.residence</code>属性存储的<code>Residence</code>实例的<code>rooms</code>数组中的第一个房间的名称，因为<code>john.residence</code>为<code>nil</code>，所以下标调用失败了：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> firstRoomName = john.residence?[<span class="hljs-number">0</span>].name {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"The first room name is <span class="hljs-subst">\(firstRoomName)</span>."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"Unable to retrieve the first room name."</span>)
+}
+<span class="hljs-comment">// 打印 “Unable to retrieve the first room name.”</span>
+</code></pre>
+<p>在这个例子中，问号直接放在<code>john.residence</code>的后面，并且在方括号的前面，因为<code>john.residence</code>是可选值。</p>
+<p>类似的，可以通过下标，用可选链式调用来赋值：</p>
+<pre><code class="lang-swift">john.residence?[<span class="hljs-number">0</span>] = <span class="hljs-type">Room</span>(name: <span class="hljs-string">"Bathroom"</span>)
+</code></pre>
+<p>这次赋值同样会失败，因为<code>residence</code>目前是<code>nil</code>。</p>
+<p>如果你创建一个<code>Residence</code>实例，并为其<code>rooms</code>数组添加一些<code>Room</code>实例，然后将<code>Residence</code>实例赋值给<code>john.residence</code>，那就可以通过可选链和下标来访问数组中的元素：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> johnsHouse = <span class="hljs-type">Residence</span>()
+johnsHouse.rooms.append(<span class="hljs-type">Room</span>(name: <span class="hljs-string">"Living Room"</span>))
+johnsHouse.rooms.append(<span class="hljs-type">Room</span>(name: <span class="hljs-string">"Kitchen"</span>))
+john.residence = johnsHouse
+
+<span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> firstRoomName = john.residence?[<span class="hljs-number">0</span>].name {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"The first room name is <span class="hljs-subst">\(firstRoomName)</span>."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"Unable to retrieve the first room name."</span>)
+}
+<span class="hljs-comment">// 打印 “The first room name is Living Room.”</span>
+</code></pre>
+<p><a name="accessing_subscripts_of_optional_type"></a></p>
+<h3 id="">访问可选类型的下标</h3>
+<p>如果下标返回可选类型值，比如 Swift 中<code>Dictionary</code>类型的键的下标，可以在下标的结尾括号后面放一个问号来在其可选返回值上进行可选链式调用：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">var</span> testScores = [<span class="hljs-string">"Dave"</span>: [<span class="hljs-number">86</span>, <span class="hljs-number">82</span>, <span class="hljs-number">84</span>], <span class="hljs-string">"Bev"</span>: [<span class="hljs-number">79</span>, <span class="hljs-number">94</span>, <span class="hljs-number">81</span>]]
+testScores[<span class="hljs-string">"Dave"</span>]?[<span class="hljs-number">0</span>] = <span class="hljs-number">91</span>
+testScores[<span class="hljs-string">"Bev"</span>]?[<span class="hljs-number">0</span>] += <span class="hljs-number">1</span>
+testScores[<span class="hljs-string">"Brian"</span>]?[<span class="hljs-number">0</span>] = <span class="hljs-number">72</span>
+<span class="hljs-comment">// "Dave" 数组现在是 [91, 82, 84]，"Bev" 数组现在是 [80, 94, 81]</span>
+</code></pre>
+<p>上面的例子中定义了一个<code>testScores</code>数组，包含了两个键值对，把<code>String</code>类型的键映射到一个<code>Int</code>值的数组。这个例子用可选链式调用把<code>&quot;Dave&quot;</code>数组中第一个元素设为<code>91</code>，把<code>&quot;Bev&quot;</code>数组的第一个元素<code>+1</code>，然后尝试把<code>&quot;Brian&quot;</code>数组中的第一个元素设为<code>72</code>。前两个调用成功，因为<code>testScores</code>字典中包含<code>&quot;Dave&quot;</code>和<code>&quot;Bev&quot;</code>这两个键。但是<code>testScores</code>字典中没有<code>&quot;Brian&quot;</code>这个键，所以第三个调用失败。</p>
+<p><a name="linking_multiple_levels_of_chaining"></a></p>
+<h2 id="">连接多层可选链式调用</h2>
+<p>可以通过连接多个可选链式调用在更深的模型层级中访问属性、方法以及下标。然而，多层可选链式调用不会增加返回值的可选层级。</p>
+<p>也就是说：</p>
+<ul>
+<li>如果你访问的值不是可选的，可选链式调用将会返回可选值。</li>
+<li>如果你访问的值就是可选的，可选链式调用不会让可选返回值变得“更可选”。</li>
+</ul>
+<p>因此：</p>
+<ul>
+<li>通过可选链式调用访问一个<code>Int</code>值，将会返回<code>Int?</code>，无论使用了多少层可选链式调用。</li>
+<li>类似的，通过可选链式调用访问<code>Int?</code>值，依旧会返回<code>Int?</code>值，并不会返回<code>Int??</code>。</li>
+</ul>
+<p>下面的例子尝试访问<code>john</code>中的<code>residence</code>属性中的<code>address</code>属性中的<code>street</code>属性。这里使用了两层可选链式调用，<code>residence</code>以及<code>address</code>都是可选值：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> johnsStreet = john.residence?.address?.street {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"John's street name is <span class="hljs-subst">\(johnsStreet)</span>."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"Unable to retrieve the address."</span>)
+}
+<span class="hljs-comment">// 打印 “Unable to retrieve the address.”</span>
+</code></pre>
+<p><code>john.residence</code>现在包含一个有效的<code>Residence</code>实例。然而，<code>john.residence.address</code>的值当前为<code>nil</code>。因此，调用<code>john.residence?.address?.street</code>会失败。</p>
+<p>需要注意的是，上面的例子中，<code>street</code>的属性为<code>String?</code>。<code>john.residence?.address?.street</code>的返回值也依然是<code>String?</code>，即使已经使用了两层可选链式调用。</p>
+<p>如果为<code>john.residence.address</code>赋值一个<code>Address</code>实例，并且为<code>address</code>中的<code>street</code>属性设置一个有效值，我们就能过通过可选链式调用来访问<code>street</code>属性：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">let</span> johnsAddress = <span class="hljs-type">Address</span>()
+johnsAddress.buildingName = <span class="hljs-string">"The Larches"</span>
+johnsAddress.street = <span class="hljs-string">"Laurel Street"</span>
+john.residence?.address = johnsAddress
+
+<span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> johnsStreet = john.residence?.address?.street {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"John's street name is <span class="hljs-subst">\(johnsStreet)</span>."</span>)
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"Unable to retrieve the address."</span>)
+}
+<span class="hljs-comment">// 打印 “John's street name is Laurel Street.”</span>
+</code></pre>
+<p>在上面的例子中，因为<code>john.residence</code>包含一个有效的<code>Residence</code>实例，所以对<code>john.residence</code>的<code>address</code>属性赋值将会成功。</p>
+<p><a name="chaining_on_methods_with_optional_return_values"></a></p>
+<h2 id="">在方法的可选返回值上进行可选链式调用</h2>
+<p>上面的例子展示了如何在一个可选值上通过可选链式调用来获取它的属性值。我们还可以在一个可选值上通过可选链式调用来调用方法，并且可以根据需要继续在方法的可选返回值上进行可选链式调用。</p>
+<p>在下面的例子中，通过可选链式调用来调用<code>Address</code>的<code>buildingIdentifier()</code>方法。这个方法返回<code>String?</code>类型的值。如上所述，通过可选链式调用来调用该方法，最终的返回值依旧会是<code>String?</code>类型：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> buildingIdentifier = john.residence?.address?.buildingIdentifier() {
+    <span class="hljs-built_in">print</span>(<span class="hljs-string">"John's building identifier is <span class="hljs-subst">\(buildingIdentifier)</span>."</span>)
+}
+<span class="hljs-comment">// 打印 “John's building identifier is The Larches.”</span>
+</code></pre>
+<p>如果要在该方法的返回值上进行可选链式调用，在方法的圆括号后面加上问号即可：</p>
+<pre><code class="lang-swift"><span class="hljs-keyword">if</span> <span class="hljs-keyword">let</span> beginsWithThe =
+    john.residence?.address?.buildingIdentifier()?.hasPrefix(<span class="hljs-string">"The"</span>) {
+        <span class="hljs-keyword">if</span> beginsWithThe {
+            <span class="hljs-built_in">print</span>(<span class="hljs-string">"John's building identifier begins with \"The\"."</span>)
+        } <span class="hljs-keyword">else</span> {
+            <span class="hljs-built_in">print</span>(<span class="hljs-string">"John's building identifier does not begin with \"The\"."</span>)
+        }
+}
+<span class="hljs-comment">// 打印 “John's building identifier begins with "The".”</span>
+</code></pre>
+<blockquote>
+<p>注意<br>在上面的例子中，在方法的圆括号后面加上问号是因为你要在<code>buildingIdentifier()</code>方法的可选返回值上进行可选链式调用，而不是方法本身。</p>
+</blockquote>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../chapter2/16_Automatic_Reference_Counting.html" class="navigation navigation-prev " aria-label="Previous page: 自动引用计数"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../chapter2/18_Error_Handling.html" class="navigation navigation-next " aria-label="Next page: 错误处理"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
